@@ -1,0 +1,117 @@
+/* 通栏 */
+ul,li{list-style: none;}
+.cont{width: 100%;
+    position: relative;
+}
+/* 版心 */
+.xin{width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+//头部
+#top{
+
+    height: 55px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .right{
+        span{margin-left: 8px;
+            font-size: 12px ;
+            color: #808080;
+    }
+     .b{padding-left: 30px;}
+     a{color: #c1383e;
+    }
+    }
+    .left{width: 300px;
+     
+
+    img{width: 200px;padding-left: 60px;}
+    }
+  
+}
+
+
+//list
+#list{
+    color: Gray;
+    font-size: 14px;
+    font-weight: bold;
+    
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid black;
+    .cartHead {
+        border: 1px solid black;
+        height: 50px;
+    }
+    
+    .cartHead li {
+        width: 180px;
+        height: 50px;
+        float: left;
+        font: 32px/50px "楷体";
+        text-align: center;
+    }
+    a{
+        color: #A10000;
+        text-decoration: underline
+    }
+    .goodInfo {
+        border: 1px solid black;
+        border-top: none;
+        height: 50px;
+    }
+    
+    .goodInfo li {
+        float: left;
+        width: 180px;
+        height: 50px;
+        float: left;
+      
+        font: 24px/50px "";
+        text-align: center;
+    }
+    
+    .goodInfo li input {
+        width: 30px;
+        text-align: center;
+    }
+    
+    .goodInfo li.num a {
+        display: inline-block;
+        width: 10px;
+        height: 20px;
+        font: 12px/20px "";
+        background: #ddd;
+        text-decoration: none;
+    
+    }
+    
+    .goodInfo li img {
+        width: 40px;
+        height: 40px;
+       
+        text-align: center;
+    }
+    
+    .blank {
+        height: 50px;
+        font: 32px/50px "";
+        text-align: center;
+        border: 1px solid black;
+        border-top: none;
+        display: none;
+    }
+}
+#foot{
+    margin-top: 50px;
+    p{text-align: center; 
+           font-size: 12px;
+            line-height: 15px;
+            color: #3e3a39;}
+            img{width: 300px;height: 45px;margin: 0px auto;display: block;}}

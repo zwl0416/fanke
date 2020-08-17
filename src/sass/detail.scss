@@ -1,0 +1,177 @@
+@import 'public.scss';
+body{height: 5000px;}
+//正文顶部
+#content-top{height: 45px;
+    border-bottom: 1px solid #e5e6e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10000;
+.left{
+    width: 180px;
+    font-size: 18px;
+    line-height: 45px;
+   padding-left: 10px;
+}
+.right{
+
+    width: 203px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+  li{
+      color: #808080;
+      font-size: 14px;
+  }
+}
+}
+
+//正文
+#content-box{
+    height: 500px;
+    border-bottom: 1px solid #E5E6E6;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .left{width: 634px;
+        height: 426px;
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    .list{
+        width: 70px;
+        height: 426px;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        li{
+            width: 90px;
+            height: 90px;
+            border: 1px solid #E5E6E6;
+            margin-bottom: 18px;
+            img{
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+        }
+        
+    }
+    .imgs{width: 400px;height: 400px;border: 1px solid #E5E6E6;margin: 10px auto}
+
+    }
+    .right{height:426px ;
+           
+           width: 550px;
+           margin-top: 5px;
+           p{
+               
+               height: 26px;
+               color: #A10000;
+               font-size: 12px;
+               padding-top: 10px;
+               em{
+                   font-size: 20px;
+               }
+               
+            }
+            .a{width: 135px;
+                height:15px;
+                background-color: #b81c22;
+                font-size: 12px;
+                color: white;
+                
+           }
+           .con{
+               margin-top: 25px;
+               display: flex;
+               flex-direction: row;
+               justify-content: start;
+               
+               height: 80px;
+               ul{ width: 500px;
+                height: 200px;
+               
+              
+
+                li{
+                    border: 1px solid #B4B4B4;
+                    height: 38px;
+                    width: 93px;  float: left;
+                     margin-right: 4px;
+                     span{
+                         line-height: 38px;
+                         display: block;
+                         float: right;
+                         padding-right: 8px;
+                     }
+                    img{width: 38px;
+                    height: 38px;}
+                }
+               }
+               
+           }
+           #size{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+         
+            height: 80px;
+            ul{
+                width: 500px;
+                height: 23px;
+                display: flex;
+            flex-direction: row;
+            justify-content: start;
+                li{
+                    border: 1px solid #B4B4B4;
+                    height: 23px;
+                    width: 30px;
+                    line-height: 23px;
+                    margin-right: 5px;
+                    text-align: center;
+                }
+            }
+           }
+           #btn{
+           padding-left: 40px;
+           margin-top: 20px;
+           
+            .a{ width: 166px;
+                height: 31px;
+                display: block;
+                float: left;
+                margin-right: 13px;
+                border: solid 1px rgb(183, 27, 33);
+                color: #A10000;
+                line-height: 31px;
+                font-size: 18px;
+                text-align: center;
+                background: #F7ABAF;}
+                .b{
+                    width: 168px;
+                    height: 31px;
+                    display: block;
+                    float: left;
+                    border: solid 1px rgb(183, 27, 33);
+                    color: white;
+                    background-color: #A10000;
+                    line-height: 31px;
+                    text-align: center;
+                    font-size: 18px;
+                }
+            
+        }
+    } 
+}
+

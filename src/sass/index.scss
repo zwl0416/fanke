@@ -1,0 +1,186 @@
+@import 'public.scss';
+   /* 轮播图 */
+#slide{height: 535px;background-color: cyan;
+    .swiper-container {
+        width: 1200px;
+        height: 530px;
+        border: 1px solid black;
+    }  }
+#mgs{margin-top: 20px;}
+
+
+/* 正文 */
+#content{margin-top: 20px;
+     li{
+         float: left;
+       margin-right: 8px;
+        img{width: 232px;height: 232px;}
+        .one{color: #d3d3d3;
+            display: block;
+            font-size: 14px;
+            text-decoration: line-through;
+            margin-top: 4px;}
+        .left{font-size: 16px;
+            display: block;
+            color: #bb2b34;
+            float: left;
+            margin-top: 9px;
+            }
+                .right{float: right;
+                    font-size: 16px;
+                    display: block;
+                   
+                    margin-top: 9px;
+                    margin-right: 8px;
+                    em{font-weight: bolder;
+                        color: #bb2b34;
+                        font-size: 24px;}}
+        }
+        .list-foot img {padding-top: 20px;
+                    width: 580px;
+                    height: 106px;
+                   padding-right: 10px;}
+
+}
+/* 正文列表 */
+#box {
+    h1{height: 70px;
+        text-align: center;
+        line-height: 70px;
+        font-size: 20px;
+        color: darkgray;}
+        .one{display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            .left img{width: 660px;
+                height: 880px;}
+        }
+        .two{display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            .right img{width: 660px;
+                height: 880px;
+            }
+        }
+
+} 
+#content-foot{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 正文中部 */
+.yx{    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: darkgray;
+    margin-top:30px ;}
+#box-centen{display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 20px;
+          .left{width: 592px;
+            height: 509px;
+            border: 1px solid #E8E7EC;
+            p{height: 50px;
+                line-height: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;}
+        }
+        .center{width: 290px;
+            height: 509px;
+            border: 1px solid #E8E7EC ;
+            .last{margin-top: 30px;}}
+            .right{width: 286px;
+                height: 509px;
+                border: 1px solid #E8E7EC ;}   
+                .a{color: #a10000;}
+                .b{color:#808080 ;}
+                em{font-size: 20px;font-weight: bolder;}
+    }
+
+/* 下装 */
+#trouser{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    li{border: 1px solid #E8E7EC;
+        height: 500px; 
+        width: 285px;
+        p{height: 50px;
+            line-height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .a{color: #a10000;
+                em{font-size: 20px;
+                    font-weight: bolder;}}
+            .b{color:#808080 ;}}
+        }
+    }
+
+
+
+/* 更多精品 */
+
+#box-foot ul{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    li{border: 1px solid #E8E7EC;
+        width: 375px;
+        height: 275px;}}
+
+      
+/* 侧栏 */
+.menu{ position: fixed;
+     right:0; top:50%;
+      border-left:1px #b81b22 solid;
+       border-top:1px #b81b22 solid;
+       li{width:73px;
+         height:73px;
+          border-bottom:1px #b81b22 solid;  
+          text-align: center;
+          padding-top: 3px;
+           background-color: white;
+           i{ font-size:35px;}
+           p{ margin-top: 10px;}
+           .bck{display: block;background-color: red; width: 100%;height: 100%;color: white;}
+        }
+    }
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,185 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: #808080;}
+ul,ol,li{list-style: none;}
+/* 通栏 */
+.cont{width: 100%;
+    position: relative;
+}
+/* 版心 */
+.xin{width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 顶 */
+#top{height: 30px;
+     background-color: #f7f7f7;
+      border-bottom: 1px solid #ccc;
+    .top-head{
+        position: absolute;
+        right: 0;
+        margin-right: 170px;
+        span{margin-left: 8px;
+            font-size: 12px ;
+            color: #808080;}
+
+    }
+    }
+    //头部
+//搜索
+.search{height: 70px;
+    .box{width: 438px;
+       height: 60px;
+       float: right;
+       margin-top: 30px;
+       .cont{width: 438px;
+           height: 30px;
+           margin-top: 5px;
+            .search-text{width: 260px;
+               height: 29px;
+               border: 1px solid #ccc;
+           }
+           .search-btn{background-color: #c1383e;
+               color: white;
+               height: 32px;
+               width: 39px;
+               margin-left: -5px;}
+               .btn{background-color: #c1383e;
+                   color: white;
+                   height: 30px;
+                   width: 89px;
+                   float: right;
+                   display: block;
+                   text-align: center;
+                   line-height: 30px;}
+       }
+       .hotword{width: 440px;
+           height: 18px; 
+       a{font-size: 12px;
+           margin-right: 8px;}
+       }
+   }
+}
+/* 导航 */
+#nav::after{content: '';display: block;clear: both;}
+ #nav{height:120px;
+   margin-top: 40px;
+    width: 100%;
+ 
+      img{float: left;
+       margin-top: 30px;
+   }
+  
+   ul{float: right;
+      li:hover #f{display: block;}
+      >li:hover a{color: red; border-bottom:2px solid red;}
+       
+        li{float: left;
+           line-height: 120px;
+           margin-right: 5px;
+           position: relative;
+           width:100px;
+           a{display: inline-block;width: 70px;
+             height: 20px;line-height: 20px;text-align: center;
+           
+        }
+          
+           span{color:#808080 ;
+               padding-left: 2px;}
+           
+               }
+       }
+       #f{ position: absolute;
+        left:0; top:74px; 
+        width:100%; 
+       display: none;
+     
+       z-index: 40000;
+     
+        /* display: none; */
+    >li{ height: 20px;
+       width: 60px;
+       z-index: 30000;
+       
+       a{display: block; padding: 4px; height: 10px;width: 100%; line-height: 10px;text-align: center;
+        background-color: #FFFFFF;
+        color: #727171;
+        border: 1px solid #727171;
+        
+    }
+   }
+
+   } 
+}
+  
+
+  /* 底部 */
+ #last{height: 300px;
+    border: 1px solid #E8E7EC;
+    width: 1200px;
+    margin-top: 100px;
+    >ul{height: 140px;
+        width: 1200px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items: center;
+        >li{width:400px;
+            height: 140px;
+            border-right: 1px solid #e0e0e1;
+            >.a{margin: 0px auto;
+                width: 156px;
+                height: 32px;
+                text-align: center; 
+                line-height: 32px;
+                 font-size: 14px;
+                 background: #b81c22;
+                 color: #ffffff;
+                 margin-top: 30px;}
+            >.b{    text-align: center;
+                    font-size: 14px;
+                    color: #727171;
+                     line-height: 26px;
+                     margin-top: 20px;
+                     em{color: #a10000;}}
+            img{margin: 0 auto;display: block;}
+        .one{
+            img{margin-top: 16px;}
+
+        }           
+        }
+    }
+    #last-nav{height: 46px; 
+        padding: 10px 0px 10px 0px;
+        background: #f8f8f8;
+        width: 95%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;align-items: center;
+        span{
+            border-right: 1px solid #dadadb; 
+            width: 200px;
+            text-align: center;
+            line-height: 46px;
+            color: #5C5C5C;}}
+            .three{img{width: 104px;height: 104px;}
+} 
+
+} 
+    
+/* 脚步 */
+ #footd{border-top:1px solid black ;
+    margin-top: 30px;
+    p{text-align: center; 
+        padding-top: 10px;
+            line-height: 25px;
+            color: #3e3a39;}
+            img{width: 300px;height: 45px;margin: 40px auto;display: block;}
+        } 
+
+    
+
+
+

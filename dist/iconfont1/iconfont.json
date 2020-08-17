@@ -1,0 +1,58 @@
+{
+  "id": "1993841",
+  "name": "fanke",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3544159",
+      "name": "上箭头",
+      "font_class": "ico_back",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "6240886",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "6539427",
+      "name": "喇叭",
+      "font_class": "laba",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "6684308",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "9186712",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "12670569",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "15971907",
+      "name": "在线客服",
+      "font_class": "zaixiankefu",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
